@@ -1,40 +1,48 @@
 {
-	"name": "maps3Dplus",
-	"version": "0.1.0",
-	"description": "Maps3D with 3D printer output",
-	"keywords": [
-		"maps3d", 
-		"maps3Dplus",
-		"3d",
-		"elevation model",
-		"additive manufacturing"
-	],
-	"homepage": "http://www.tiefenauer.info",
-	"license": "MIT",
-	"people": [
-		"Daniel Tiefenauer <daniel@tiefenauer.info (http://www.tiefenauer.info/)"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/tiefenauer/maps3Dplus"
-	},
-	"engines": {
-		"node": ">= 0.10.0"
-	},
-	"dependencies": {
-		"backbone": "1.1.2",
-		"bootstrap": "3.2.0",
-		"jquery": "2.1.1",
-		"require": "0.5.0",
-		"three": "0.66.3",
-		"underscore": "1.7.0"
-	},  
-	"devDependencies": {
-		"grunt": "~0.4.5",
-		"grunt-contrib-jshint": "~0.10.0",
-		"grunt-contrib-watch": "~0.6.1",
-		"grunt-contrib-qunit": "~0.5.2",
-		"grunt-contrib-concat": "~0.4.0",
-		"grunt-contrib-uglify": "~0.5.0"
-	}
+  "name": "maps3Dplus",
+  "version": "0.1.0",
+  "description": "Maps3D with 3D printer output",
+  "keywords": [
+    "maps3d",
+    "maps3Dplus",
+    "3d",
+    "elevation model",
+    "additive manufacturing"
+  ],
+  "homepage": "http://www.tiefenauer.info",
+  "license": "MIT",
+  "people": [
+    "Daniel Tiefenauer <daniel@tiefenauer.info (http://www.tiefenauer.info/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiefenauer/maps3Dplus"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "backbone": "1.1.2",
+    "bootstrap": "3.2.0",
+    "jquery": "2.1.1",
+    "require": "0.5.0",
+    "three": "0.66.3",
+    "underscore": "1.7.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-qunit": "~0.5.2",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-uglify": "~0.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/tiefenauer/maps3Dplus/issues"
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Daniel Tiefenauer"
 }
