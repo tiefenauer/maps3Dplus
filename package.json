@@ -41,8 +41,5 @@
     "url": "https://github.com/tiefenauer/maps3Dplus/issues"
   },
   "main": "Gruntfile.js",
-  "scripts": {
-    "test": "test"
-  },
   "author": "Daniel Tiefenauer"
 }
